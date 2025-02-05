@@ -1,0 +1,35 @@
+{
+  "editor.tabSize": 2, // Set the tab size to 2 spaces
+  "editor.insertSpaces": true, // Use spaces instead of tabs
+  "editor.formatOnSave": true, // Format code on save
+  "eslint.enable": true, // Enable ESLint
+  "eslint.run": "onType", // Run ESLint as you type
+  "prettier.requireConfig": true, // Ensure Prettier uses a configuration file
+  "files.autoSave": "afterDelay", // Auto-save files after a delay
+  "files.autoSaveDelay": 1000, // Delay of 1 second for auto-save
+  "editor.wordWrap": "on", // Enable word wrapping
+  "files.exclude": {
+    "**/.git": true, // Exclude .git directory from the file explorer
+    "**/.DS_Store": true // Exclude .DS_Store files (Mac-specific)
+  },
+  "search.exclude": {
+    "**/node_modules": true, // Exclude node_modules from search results
+    "**/.git": true // Exclude .git from search results
+  },
+ "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[tsx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

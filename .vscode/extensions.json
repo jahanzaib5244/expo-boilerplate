@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "naumovs.color-highlight",
+    "wallabyjs.console-ninja",
+    "usernamehw.errorlens",
+    "expo.vscode-expo-tools",
+    "github.vscode-github-actions",
+    "eamodio.gitlens",
+    "kisstkondoros.vscode-gutter-preview",
+    "mariusalchimavicius.json-to-ts",
+    "pkief.material-icon-theme",
+    "equinusocio.vsc-material-theme",
+    "esbenp.prettier-vscode",
+    "dheovani.svg-viewer",
+    "gruntfuggly.todo-tree",
+    "dsznajder.es7-react-js-snippets",
+    "swmansion.react-native-ide"
+  ]
+}
