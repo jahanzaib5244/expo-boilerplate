@@ -1,19 +1,10 @@
-import { StyleSheet } from "react-native";
-import React from "react";
+import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
 
 export default function NotFoundScreen() {
-  return <React.Fragment></React.Fragment>;
+  return (
+    <View className="flex-1 justify-center bg-red-500 align-middle">
+      <Text className="text-center">Hello Tailwind</Text>
+    </View>
+  );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 20,
-  },
-  link: {
-    marginTop: 15,
-    paddingVertical: 15,
-  },
-});
