@@ -4,15 +4,31 @@
     "appVersionSource": "remote"
   },
   "build": {
-    "development": {
+    "dev": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "config": "dev",
+      "environment": "development",
+      "node": "23.4.0",
+      "yarn": "1.22.22"
     },
-    "preview": {
-      "distribution": "internal"
+    "staging": {
+      "distribution": "internal",
+      "android": { "buildType": "apk" },
+      "developmentClient": false,
+      "config": "staging",
+      "environment": "preview",
+      "node": "23.4.0",
+      "yarn": "1.22.22"
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "developmentClient": false,
+      "android": { "buildType": "app-bundle" },
+      "config": "live",
+      "environment": "production",
+      "node": "23.4.0",
+      "yarn": "1.22.22"
     }
   },
   "submit": {
